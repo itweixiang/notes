@@ -1,11 +1,11 @@
 #/bin/bash
 
-HOSTNAME="copy"
+HOSTNAME="svn"
 DNS1="192.168.0.3"
 GATEWAY="192.168.0.2"
-IPADDR="192.168.0.73"
+IPADDR="192.168.0.84"
 NETMASK="255.255.254.0"
-NETCARD="?"
+NETCARD="ens160"
 
 echo "network:
   ethernets:

@@ -4,7 +4,7 @@
 
 ## select
 
-![111](images/17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png)
+![111](../images/17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png)
 
 - 示例代码
 
