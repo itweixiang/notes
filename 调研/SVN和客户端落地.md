@@ -43,7 +43,7 @@ docker cp container_name:/home/svnadmin/ /data
 
 /data为刚刚的拷贝路径
 
-```
+```sh
 sudo docker run -d \
 -p 80:80 \
 -p 3690:3690 \
@@ -59,7 +59,7 @@ witersencom/svnadmin:2.3.2
 
 目前的版本，容器中存在一些权限问题，已向官方反馈，并于下版本修复。需要进入到容器中，对/home/svnadmin目录授一下权
 
-```
+```sh
 # 进入容器
 docker exec -it container_name /bin/bash
 # 授权
